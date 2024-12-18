@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    height: 100vh;
+    background-image: linear-gradient(45deg, rgba(125, 173, 163, .1) 0%, rgba(229, 227, 223, .3) 46%, rgba(255, 186, 178, 1) 100%), url(https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+
+
+.navbar {
+    padding-top: 20px !important;
+}
+
+.nav-item {
+    margin-left: 40px !important;
+    margin-bottom: 10px !important;
+}
+
+.nav-link {
+    color: #fff !important;
+    font-size: 21px !important;
+    padding: 0 0 5px 0 !important;
+    display: unset;
+    font-weight: 500;
+    letter-spacing: .5px;
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+    transition: .3s linear;
+}
+
+.navbar-brand img {
+    width: 300px;
+}
+
+.active-home {
+    border-bottom: 2px solid #fff;
+
+}
+
+.nav-link:hover {
+    border-bottom: 2px solid #fff;
+}
+
+.banner {
+    color: #fff;
+    margin-top: 8%;
+}
+
+.banner h1 {
+    margin: 80px 0 50px;
+    font-weight: 600;
+    font-size: 60px;
+}
+
+#hero {
+    color: #D3AB35;
+    -webkit-text-stroke-color: rgba(152, 66, 45);
+    -webkit-text-stroke-width: 1.5px;
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.6);
+}
+
+.banner a {
+    padding: 12px;
+    width: 150px;
+    display: block;
+    text-decoration: none !important;
+    color: rgba(152, 66, 45);
+    background: #D3AB01;
+    border: 1.5px solid rgba(152, 66, 45);
+    border-radius: 5px;
+    text-align: center;
+    margin: 30px auto;
+    font-weight: bold;
+    font-size: 14px;
+    box-shadow: 2px 4px 3px rgba(0, 0, 0, 0.2);
+    transition: .38s ease;
+}
+
+.banner a:hover {
+    color: #fff;
+    background: #FF5733;
+}
+
+.banner img {
+    position: absolute;
+    right: -27%;
+    top: -20%;
+}
+
+.spider {
+    width: 20px;
+    position: absolute;
+}
+
+.logo {
+    width: 50px;
+    height: 150px;
+}
+
+
+.comic-text {
+    font-family: 'Comic Sans MS', 'Comic Neue', sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    color: #ffcc00;
+    background-color: #0000ff;
+    text-shadow: 3px 3px 0 #ff0000,
+        -1px -1px 0 #000,
+        1px 1px 0 #000;
+    padding: 10px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.comics-text {
+    font-family: 'Comic Sans MS', 'Comic Neue', sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    color: #ffcc00;
+    background-color: #0000ff;
+    text-shadow: 3px 3px 0 #ff0000,
+        -1px -1px 0 #000,
+        1px 1px 0 #000;
+    padding: 10px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 0.2s;
+}
+
+.comics-text:hover {
+    transform: scale(1.05);
+}
